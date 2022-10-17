@@ -1,0 +1,38 @@
+<div class='card'>
+<div class='card-header'>
+  {{ pageTitle }}
+</div>
+<div class="row mb-4"></div>
+<div class='card-body'>
+  <div class='table-responsive'>
+    <table class='table'>
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Country</th>
+          <th>City</th>
+          <th>Description</th>
+          <th>Date</th>
+          <th>Rating</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>{{ tourDetails.Id }}</td>
+          <td>{{ tourDetails.Country }}</td>
+          <td>{{ tourDetails.City }}</td>
+          <td>{{ tourDetails.Description }}</td>
+          <td>{{ tourDetails.Date }}</td>
+          <td><app-rating [model]='tourDetails'></app-rating></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+  <div class='row mb-2 col-md-6'>
+    <a [routerLink]="['/tours']">Go back to list</a>
+  </div>
+
+</div>
+

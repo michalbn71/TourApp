@@ -1,0 +1,36 @@
+[{
+  "Id": 1,
+  "City": "Malaga",
+  "Country": "Spain",
+  "Description": "Tour to visit popular places",
+  "Date": "June 2018",
+  "Budget": 2000,
+  "Rating": 4
+},
+{
+  "Id": 2,
+  "City": "Zakhyntos",
+  "Country": "Greece",
+  "Description": "All-in holidays",
+  "Date": "September 2020",
+  "Budget": 3000,
+  "Rating": 5
+},
+{
+  "Id": 3,
+  "City": "Neapol",
+  "Country": "Italy",
+  "Description": "Private tour during studies",
+  "Date": "April 2019",
+  "Budget": 4000,
+  "Rating": 3
+},
+{
+  "Id": 4,
+  "City": "London",
+  "Country": "United Kingdom",
+  "Description": "Nice weekend spend on city centre and visiting attractions",
+  "Date": "August 2017",
+  "Budget": 1700,
+  "Rating": 5
+}]
